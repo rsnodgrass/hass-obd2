@@ -5,7 +5,7 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 ![beta_badge](https://img.shields.io/badge/maturity-Beta-yellow.png)
 
-Home Assistant integration for wireless ELM327 ODB-II sensors such as the [ELM327 Mini Bluetooth LE Interface](https://www.amazon.com/obdator-Bluetooth-Scanner-Automotive-Diagnostic/dp/B074DWH8JR/?tag=rynoshark-20).
+Home Assistant integration for wireless ELM327 ODB-II sensors such as the [ELM327 Mini Bluetooth LE Interface](https://www.amazon.com/obdator-Bluetooth-Scanner-Automotive-Diagnostic/dp/B074DWH8JR/?tag=rynoshark-20) or the [ELM 326 WiFi Interface](https://smile.amazon.com/Interface-Scanner-Diagnostic-Original-Support/dp/B07L4926C1?tag=rynoshark-20).
 
 Various sensor ideas:
 
@@ -41,8 +41,10 @@ elm327:
   devices:
     - mac: 0a:30:ab:e5:12:23
       pairing_code: 0000
+      type: bluetooth
     - mac: 0d:12:01:12:53:de
       pairing_code: 1234
+      type: wifi
 ```
 
 #### Lovelace
@@ -57,7 +59,8 @@ type: entities
 ## Hardware Requirements
 
 * [ELM327 Mini Bluetooth LE Interface](https://www.amazon.com/obdator-Bluetooth-Scanner-Automotive-Diagnostic/dp/B074DWH8JR/?tag=rynoshark-20)
-* Bluetooth 4.0 USB hardware compatible with Home Assistant (such as [ZEXMTE Bluetooth USB Adapter CSR 4.0](https://smile.amazon.com/gp/product/B0775YF36R/?tag=rynoshark-20) or an Esp32)
+* Bluetooth 4.0 or WiFi hardware compatible with Home Assistant (such as [ELM327 Mini Bluetooth LE Interface](https://www.amazon.com/obdator-Bluetooth-Scanner-Automotive-Diagnostic/dp/B074DWH8JR/?tag=rynoshark-20) or the [ELM 326 WiFi Interface](https://smile.amazon.com/Interface-Scanner-Diagnostic-Original-Support/dp/B07L4926C1?tag=rynoshark-20).
+
 
 ## See Also
 
