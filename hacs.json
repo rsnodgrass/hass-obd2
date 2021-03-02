@@ -1,0 +1,5 @@
+{
+  "name": "ELM327 ODB-II Car Diagnostics",
+  "domains": [ "sensor" ],
+  "render_readme": true
+}
