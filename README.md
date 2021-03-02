@@ -13,6 +13,8 @@ Various sensor ideas:
 - temperature
 - fault codes/engine status
 
+## NOTE: THIS IS NOT IMPLEMENTED, JUST A STUB FOR AN IDEA! LOOKING FOR CONTRIBUTORS TO HELP.
+
 ## Support
 
 If you have trouble with installation and configuration, visit the [ELM327 Home Assistant community discussion](https://community.home-assistant.io/t/https://community.home-assistant.io/t/my-new-android-app-bridge-between-car-obd2-and-home-assistant/101425).
