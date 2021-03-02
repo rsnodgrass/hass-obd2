@@ -65,7 +65,9 @@ type: entities
 
 ## See Also
 
-* [Community support for Home Assistant ELM327 CTX Battery Sense integration](https://community.home-assistant.io/t/ctek-ctx-battery-sense/105711)
+* [Community support for Home Assistant ELM327](https://community.home-assistant.io/t/https://community.home-assistant.io/t/my-new-android-app-bridge-between-car-obd2-and-home-assistant/101425)
+
+* [Python-OBD](https://pypi.org/project/obd/)
 
 ## Known Issues
 
@@ -73,6 +75,9 @@ type: entities
 * detect when the car is actually driven (there is supposedly an engine start detection)
 
 ## Rough Notes
+
+
+ALL LOGIC for communicating with ELM327 or WiFi OBD-2 devices should not existing inside the integration. Something like the [OBD to JSON ELM327](https://github.com/EstevanTH/OBD-to-JSON_ELM327) should be running which exposes JSON data that this plugin accesses "remotely".  This allow innovation and new ways of communicating with OBD-II devices in the future without having to modify the integration itself.
 
 It seems combining a few existing projects, along with a Bluetooth ELM327 receiver (and transmitters from cars) might give us a very interesting ODB-II integration into Home Assistant.
 
