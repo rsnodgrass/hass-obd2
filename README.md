@@ -40,17 +40,13 @@ See [OBD-to-JSON ELM327](https://github.com/EstevanTH/OBD-to-JSON_ELM327)
 
 Example configuration.yaml entry:
 
-```yaml
-elm327:
-  devices:
-    - mac: 0a:30:ab:e5:12:23
-      pairing_code: 0000
-      type: bluetooth
-    - mac: 0d:12:01:12:53:de
-      pairing_code: 1234
-      type: wifi
-```
 
+
+```yaml
+obd2:
+  json:
+    - https://obd2-to-json-elm327.local
+    - https://obd2-proxy.local
 #### Lovelace
 
 ```yaml
@@ -71,7 +67,12 @@ type: entities
 
 * [Community support for Home Assistant ELM327](https://community.home-assistant.io/t/https://community.home-assistant.io/t/my-new-android-app-bridge-between-car-obd2-and-home-assistant/101425)
 
+### Possible projects to leverage
+
 * [Python-OBD](https://pypi.org/project/obd/)
+* https://www.npmjs.com/package/react-native-obd2-core?activeTab=readme
+
+
 
 ## Known Issues
 
