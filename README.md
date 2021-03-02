@@ -32,6 +32,10 @@ Mkae sure [Home Assistant Community Store (HACS)](https://github.com/custom-comp
 The 'master' branch of this custom component is considered unstable, alpha quality, and not guaranteed to work.
 Please make sure to use one of the official release branches when installing using HACS, see [what has changed in each version](https://github.com/rsnodgrass/hass-sensorpush/releases).
 
+### Step 2: Install an *OBD to JSON* service somewhere (could be a Home Assistant Add-on):
+
+See [OBD-to-JSON ELM327](https://github.com/EstevanTH/OBD-to-JSON_ELM327)
+
 ### Step 3: Configure OBD-II integration
 
 Example configuration.yaml entry:
