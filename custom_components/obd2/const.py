@@ -1,8 +1,8 @@
 from homeassistant.const import TEMP_CELSIUS, TEMP_FAHRENHEIT
 
-DOMAIN = 'elm327'
+DOMAIN = 'obd2'
 
-ATTRIBUTION="Data via ELM327"
+ATTRIBUTION="Data via OBD-II"
 ATTR_ATTRIBUTION="attribution"
 
 MEASURE_TEMP = 'temperature'

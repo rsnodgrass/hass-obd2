@@ -1,5 +1,5 @@
 {
-  "name": "ELM327 ODB-II Car Diagnostics",
+  "name": "ODB-II Wireless Car Diagnostics",
   "domains": [ "sensor" ],
   "render_readme": true
 }

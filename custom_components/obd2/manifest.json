@@ -1,0 +1,10 @@
+{
+    "domain": "obd2",
+    "name": "OBD-II OBD-II Diagnostics",
+    "documentation": "https://github.com/rsnodgrass/hass-obd2/",
+    "issue_tracker": "https://github.com/rsnodgrass/hass-obd2/issues",
+    "requirements": [],
+    "version": "0.0.1",
+    "dependencies": [],
+    "codeowners": ["@rsnodgrass"]
+}

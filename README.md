@@ -25,14 +25,14 @@ This integration was developed to cover use cases for my home integration and re
 
 ### Step 1: Install Custom Components
 
-Mkae sure [Home Assistant Community Store (HACS)](https://github.com/custom-components/hacs) is installed,  then add the "Integration" repository: *rsnodgrass/hass-elm327*.
+Mkae sure [Home Assistant Community Store (HACS)](https://github.com/custom-components/hacs) is installed,  then add the "Integration" repository: *rsnodgrass/hass-obd2*.
 
 #### Versions
 
 The 'master' branch of this custom component is considered unstable, alpha quality, and not guaranteed to work.
 Please make sure to use one of the official release branches when installing using HACS, see [what has changed in each version](https://github.com/rsnodgrass/hass-sensorpush/releases).
 
-### Step 3: Configure ELM327
+### Step 3: Configure OBD-II integration
 
 Example configuration.yaml entry:
 
@@ -60,7 +60,7 @@ type: entities
 
 * [ELM327 Mini Bluetooth LE Interface](https://www.amazon.com/obdator-Bluetooth-Scanner-Automotive-Diagnostic/dp/B074DWH8JR/?tag=rynoshark-20)
 * Bluetooth 4.0 or WiFi hardware compatible with Home Assistant (such as [ELM327 Mini Bluetooth LE Interface](https://www.amazon.com/obdator-Bluetooth-Scanner-Automotive-Diagnostic/dp/B074DWH8JR/?tag=rynoshark-20) or the [ELM 326 WiFi Interface](https://smile.amazon.com/Interface-Scanner-Diagnostic-Original-Support/dp/B07L4926C1?tag=rynoshark-20).
-* NOTE: Ideally the ELM326 ODB-II device would hold history and not just return current state (so HA could pull data from while the car was previously driven)
+* NOTE: Ideally the ELM327 ODB-II device would hold history and not just return current state (so HA could pull data from while the car was previously driven)
 
 
 ## See Also

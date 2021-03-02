@@ -1,6 +1,6 @@
 """
-ELM327 OBD-II for Home Assistant
-See https://github.com/rsnodgrass/hass-elm327
+OBD-II OBD-II for Home Assistant
+See https://github.com/rsnodgrass/hass-obd2
 """
 import logging
 
@@ -35,24 +35,24 @@ CONFIG_SCHEMA = vol.Schema({
 )
 
 def setup(hass, config):
-    """Initialize the ELM327 integration"""
+    """Initialize the OBD-II integration"""
     hass.data[DOMAIN] = {}
     conf = config[DOMAIN]
 
 #    try:
-#        elm327_service = PyELM327(username, password)
-#        hass.data[ELM327_SERVICE] = elm327_service
+#        obd2_service = PyOBD-II(username, password)
+#        hass.data[OBD-II_SERVICE] = obd2_service
 
 #    except (ConnectTimeout, HTTPError) as ex:
-#        LOG.error("Unable to connect to ELM327: %s", str(ex))
+#        LOG.error("Unable to connect to OBD-II: %s", str(ex))
 #        return False
 
     def refresh_data(event_time):
-        """Call ELM327 service to refresh latest data"""
+        """Call OBD-II service to refresh latest data"""
         return
 
-class ELM327Entity(RestoreEntity):
-    """Base Entity class for ELM327 devices"""
+class OBD-IIEntity(RestoreEntity):
+    """Base Entity class for OBD-II devices"""
 
     def __init__(self, hass, config, name_suffix, sensor_info, unit_system, measure):
         self.hass = hass
