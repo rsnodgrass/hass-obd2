@@ -1,17 +1,11 @@
-# OBD-II Car Diagnostics for Home Assistant
+# OBD-II Car Sensors for Home Assistant
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=WREP29UDAMB6G)
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 ![beta_badge](https://img.shields.io/badge/maturity-Beta-yellow.png)
 
-Home Assistant integration for wireless ODB-II sensors such as the [ELM327 Mini Bluetooth LE Interface](https://www.amazon.com/obdator-Bluetooth-Scanner-Automotive-Diagnostic/dp/B074DWH8JR/?tag=rynoshark-20) or the [ELM 326 WiFi Interface](https://smile.amazon.com/Interface-Scanner-Diagnostic-Original-Support/dp/B07L4926C1?tag=rynoshark-20).
-
-Various sensor ideas:
-
-- battey voltage
-- temperature
-- fault codes/engine status
+Home Assistant integration for wireless ODB-II sensors such as the [ELM327 Mini Bluetooth LE Interface](https://www.amazon.com/obdator-Bluetooth-Scanner-Automotive-Diagnostic/dp/B074DWH8JR/?tag=rynoshark-20) or the [ELM 326 WiFi Interface](https://smile.amazon.com/Interface-Scanner-Diagnostic-Original-Support/dp/B07L4926C1?tag=rynoshark-20). This is not designed for more advanced car diagnostics or for changing settings via OBD-2. This is designed only as exposing a series of available sensors such as battery voltage, temperature, last time car was started, fault and engine codes.
 
 ## NOTE: THIS IS NOT IMPLEMENTED, JUST A STUB FOR AN IDEA! LOOKING FOR CONTRIBUTORS TO HELP.
 
